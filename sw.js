@@ -1,7 +1,7 @@
 /* SECOND BRAIN OS — resilient PWA cache V1.0.1 */
-const CACHE = 'second-brain-os-v2.0-free-ai';
-const CORE = ['./', './index.html', './styles.css', './app.js', './local-ai.js', './db.js', './sync.js', './firebase-config.js', './manifest.webmanifest'];
-const OPTIONAL = ['./icons/icon-192.png', './icons/icon-512.png'];
+const CACHE = 'second-brain-os-v2.1-pwa-fix-2';
+const CORE = ['./', './index.html', './styles.css', './app.js', './local-ai.js', './study.js', './db.js', './sync.js', './firebase-config.js', './manifest.webmanifest', './install.html'];
+const OPTIONAL = ['./icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);

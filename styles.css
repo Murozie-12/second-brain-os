@@ -14,3 +14,6 @@
 
 /* V2.0 offline knowledge assistant */
 .aiSection{display:grid;gap:18px}.aiSection[hidden]{display:none}.aiPanel{background:var(--card,#fff);border:1px solid rgba(100,120,110,.2);border-radius:18px;padding:20px;display:grid;gap:12px}.aiPanel textarea,.aiPanel select{width:100%;box-sizing:border-box;padding:12px;border:1px solid #a8b9b0;border-radius:10px;background:transparent;color:inherit;font:inherit}.aiPanel label{font-weight:600}.aiPrivacy{font-size:12px;opacity:.72}.aiSource{display:block;width:100%;text-align:left;margin:8px 0;padding:12px;border:1px solid #a5bcb0;border-radius:10px;background:transparent;color:inherit;cursor:pointer}#aiAnswer{white-space:pre-wrap;line-height:1.7;overflow-wrap:anywhere}
+
+/* V2.1 Smart Study */
+.studyActions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.studyCard{margin-top:16px;padding:20px;border:1px solid rgba(13,105,83,.22);border-radius:18px;background:rgba(12,93,75,.045)}.studyCard h3{font-size:1.15rem;line-height:1.55}.studyCard small{opacity:.65}.studyCard #studyAnswer{white-space:pre-wrap;line-height:1.65;padding:16px;border-radius:12px;background:rgba(12,93,75,.08);margin-top:12px}
